@@ -1,4 +1,4 @@
-;(function(d){
+function(d){
 if(!window.getSelection){
   return
 }
