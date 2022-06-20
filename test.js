@@ -1,5 +1,4 @@
 <!-- highlight.js ボタン -->
-<script>
 ;(function(d){
 if(!window.getSelection){
   return
@@ -24,4 +23,3 @@ function addBtn(e){
   return addBtn.ele = this
 }
 })(document)
-</script>
