@@ -10,5 +10,5 @@ function countup() {
 
 
     var doc0= document.getElementById("div0");  
-    doc0.innerHTML= "div0の箇所にテキストを表示します。";   
+    doc0.innerHTML= "gibhutに javaScript を格納！";   
 
