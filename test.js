@@ -1,5 +1,5 @@
 <!-- highlight.js ボタン -->
-<script defer='defer'>
+<script>
 ;(function(d){
 if(!window.getSelection){
   return
