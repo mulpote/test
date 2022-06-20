@@ -16,19 +16,19 @@ function countup() {
 if(!window.getSelection){
   return
 }
-var btn = d.createElement(&quot;button&quot;)
-btn.id = &quot;selectPre&quot;
-btn.textContent = &quot;ソースコード全選択&quot;
-btn.addEventListener(&quot;click&quot;, selectPre, false)
+var btn = d.createElement("button")
+btn.id = "selectPre"
+btn.textContent = "ソースコード全選択"
+btn.addEventListener("click", selectPre, false)
 function selectPre(){
   var sel = window.getSelection()
   var pre = this.parentNode
   sel.selectAllChildren(pre)
   sel.extend(pre, pre.childNodes.length-1)
 }
-var pres = d.getElementsByTagName(&quot;code&quot;)
+var pres = d.getElementsByTagName("code")
 for(var i=pres.length; i--;){
-  pres[i].addEventListener(&quot;mouseover&quot;, addBtn, false)
+  pres[i].addEventListener("mouseover", addBtn, false)
 }
 function addBtn(e){
   if(this === addBtn.ele) return // not to addBtn if already
