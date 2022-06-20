@@ -1,6 +1,6 @@
 
 let el = document.body;
-let str = "こんにちは！";
+let str = "！！！！！！";
 
   
 el.textContent = str;
