@@ -1,4 +1,3 @@
-<!-- highlight.js ボタン -->
 ;(function(d){
 if(!window.getSelection){
   return
