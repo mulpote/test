@@ -1,3 +1,4 @@
+
 <script type='text/javascript'>
 <!--
 count = 0; //カウントの初期値
