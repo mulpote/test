@@ -431,7 +431,7 @@ body{
 #sub-content .widget h2{
 	font-size: 1.8rem;
 	padding: .6em;
-	background: 000000;
+	background: #000000;
 	color: $(brand.font);
 }
 
