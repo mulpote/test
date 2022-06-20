@@ -1,5 +1,5 @@
 
-<script type="text/javascript">
+
 <!--
 count = 0; //カウントの初期値
 timerID = setInterval('countup()',1000); //1秒毎にcountup()を呼び出し
